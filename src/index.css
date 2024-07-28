@@ -1,0 +1,36 @@
+.app {
+  padding: 30px;
+}
+
+.game {
+  width: 580px;
+  height: 580px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game img {
+  width: 70px;
+  height: 70px;
+}
+
+.border {
+  border: 1px black solid;
+}
+
+@media screen and (max-width: 800px) {
+
+  .app {
+    padding: 0;
+  }
+
+  .game {
+    width: 100%;
+  }
+  
+  .game img {
+    width : 12.5%;
+    width : -webkit-calc(100% / 8) ;
+    width : calc(100% / 8) ;
+  }
+}
