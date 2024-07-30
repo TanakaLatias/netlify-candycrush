@@ -118,7 +118,7 @@ const App = () => {
     if (willBeBlank.length > 0) {
       setBeBlank(willBeBlank);
     }
-  }, [currentBoard]);
+  }, [currentBoard, five1, five2, four1, four2, three1, three2]);
   
 
   const setBlank = useCallback(() => {
